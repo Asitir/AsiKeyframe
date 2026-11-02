@@ -4,6 +4,8 @@
 
 界面文字是中文。这是纯编辑器工具，代码都在 `Editor` 目录里，不会进播放器构建。
 
+程序开发由 Grok 4.7 完成。
+
 ## 功能
 
 - 人形（Humanoid）、通用骨骼（Generic）、物体（镜头、灯光、道具）
@@ -46,4 +48,4 @@
 
 ## English
 
-AsiKeyframe is a Unity Editor keyframe tool in the spirit of 3ds Max Biped. Pose Humanoid characters, Generic rigs, and objects, then bake a standard `AnimationClip`. Editor-only, Chinese UI, Unity 2022.3, no third-party packages. Open the project and use **AsitirTool → K帧工具**, or copy `Assets/AsitirMapTool/AsiKeyframe` into an existing project. MIT License.
+AsiKeyframe is a Unity Editor keyframe tool in the spirit of 3ds Max Biped. Pose Humanoid characters, Generic rigs, and objects, then bake a standard `AnimationClip`. Editor-only, Chinese UI, Unity 2022.3, no third-party packages. The program was developed by Grok 4.7. Open the project and use **AsitirTool → K帧工具**, or copy `Assets/AsitirMapTool/AsiKeyframe` into an existing project. MIT License.
