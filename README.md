@@ -16,6 +16,13 @@
 - 烘焙 `AnimationClip`，也可以从片段导回关键帧
 - 姿势库。仓库里不带姿势数据，第一次打开「K帧姿势库」时会自动建一个空库
 
+## 待开发
+
+1. **单个单位的动画数据导入导出**：把一个单位的动画存成独立数据，也可以再导回工程。
+2. **动画轨混合**：多条动画轨按权重混合。
+3. **Root 动画编辑**：直接编辑根节点的位移和旋转。
+4. **肌肉模拟**：在骨骼姿势之上做肌肉形变。
+
 ## 环境
 
 - Unity **2022.3**。本仓库用 **2022.3.62f3** 创建
@@ -48,4 +55,4 @@
 
 ## English
 
-AsiKeyframe is a Unity Editor keyframe tool in the spirit of 3ds Max Biped. Pose Humanoid characters, Generic rigs, and objects, then bake a standard `AnimationClip`. Editor-only, Chinese UI, Unity 2022.3, no third-party packages. The program was developed by Grok 4.7. Open the project and use **AsitirTool → K帧工具**, or copy `Assets/AsitirMapTool/AsiKeyframe` into an existing project. MIT License.
+AsiKeyframe is a Unity Editor keyframe tool in the spirit of 3ds Max Biped. Pose Humanoid characters, Generic rigs, and objects, then bake a standard `AnimationClip`. Editor-only, Chinese UI, Unity 2022.3, no third-party packages. The program was developed by Grok 4.7. Planned: per-unit animation data import/export, animation-track blending, root animation editing, and muscle simulation. Open the project and use **AsitirTool → K帧工具**, or copy `Assets/AsitirMapTool/AsiKeyframe` into an existing project. MIT License.
